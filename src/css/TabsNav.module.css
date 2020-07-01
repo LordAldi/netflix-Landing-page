@@ -1,0 +1,54 @@
+.TabIconDoor{
+    width: 2.8125rem;
+    height: 2.8125rem;
+    fill: var(--main-grey)
+}
+
+.TabIconDevice{
+    width: 9.6875rem;
+    height: 9.6875rem;
+    fill: var(--main-grey)
+}
+
+.TabIconPrices{
+    width: 4.375rem;
+    height: 4.375rem;
+    fill: var(--main-grey)
+}
+/* .TabIconPrices:hover,.TabIconDevice:hover,.TabIconDoor:hover{
+    fill: #fff;
+} */
+
+.Tabs{
+    padding-top: 1rem;
+}
+
+.TabNavContainer{
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    color: var(--main-grey);
+    margin:0 12%;
+}
+
+.TabNavContainer li:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.TabNavContainer li:hover svg path{
+    fill: #fff;
+} 
+.active{
+    border-bottom: 4px solid var(--main-red);
+}
+.TabSelected{
+    color: #fff;
+
+}
+.TabSelected svg path{
+    fill: #fff;
+}

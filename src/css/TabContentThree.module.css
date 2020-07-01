@@ -1,0 +1,53 @@
+.TabContainer{
+    background: var(--main-deep-dark);
+}
+.TabContent{
+    margin: 0 15%;
+    padding-bottom: 1%;
+}
+
+.TabTopContent{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 3rem 0 0;
+}
+
+.TabContainer span{
+    grid-column: 2 / 9;
+}
+
+.Btn{
+    grid-column: 9 / 12;
+    margin-left: 3rem;
+    margin-right: 5.1rem;
+}
+.TabBottomContent {
+    margin: 2rem auto;
+}
+.TabContainer table{
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+}
+
+.TabContainer table thead th{
+    text-transform: uppercase;
+    padding:0.8rem;
+}
+.TabContainer table tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.TabContainer table tbody tr td{
+    color: #999;
+    padding: 0.8rem 1.2rem;
+    text-align: center;
+}
+.TabContainer table tbody tr td:first-child{
+    text-align: left;
+}
+
+.TabContainer table tbody tr:nth-child(even){
+    background: #222;
+}
