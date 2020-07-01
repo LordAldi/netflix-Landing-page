@@ -17,8 +17,8 @@ class Header extends Component {
 
                 <div className={classes.headerContent}>
                     <h1 className={classes.title}>See what's next.</h1>
-                    <h2 className={classes.subtitle}>WATCH ANYWHERE. CANCEL ANYTIME,</h2>
-                    <Button className='main-offer-btn' primary>try it now <Icon icon={ic_keyboard_arrow_right} size={37} className={classes.icon}/></Button>
+                    <h2 className={classes.subtitle}>WATCH ANYWHERE. CANCEL ANYTIME</h2>
+                    <button className={classes.mainOfferBtn} primary>try it now <Icon icon={ic_keyboard_arrow_right} size={37} className={classes.icon}/></button>
                 </div>
             </div>
         )

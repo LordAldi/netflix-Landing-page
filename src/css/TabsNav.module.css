@@ -52,3 +52,23 @@
 .TabSelected svg path{
     fill: #fff;
 }
+
+@media(max-width: 900px){
+    .TabIconDoor{
+        width: 2.4rem;
+    height: 2.4rem;
+    }
+    .TabIconDevice{
+        width: 8rem;
+        height: 8rem;
+    }
+    .TabIconPrices{
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+}
+@media(max-width: 740px){
+    .TabNavContainer p{
+        font-size: 0.8rem;
+    }
+}

@@ -74,12 +74,58 @@ z-index: 1;
  box-shadow: 0 1px 0 rgba(0,0,0,0.45);
  transition: all 0.2s ease-in;
  cursor: pointer;
+ color: #fff;
 }
 
-.mainOfferBtn:hover{
+.mainOfferBtn:hover:hover{
     background: var(--main-red-hover);
 }
 .icon{
- vertical-align: bottom;
+ vertical-align: bottom !important;
  margin-left: 1.5rem;
+}
+
+@media(max-width:1350px){
+    .mainOfferBtn{
+        margin: 0 33%;
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:1150px){
+    .mainOfferBtn{
+        margin: 0 25%;
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:960px){
+   .Img{
+       left: 20%;
+   }
+   .signInbtn{
+    margin-top: 1.25rem;
+    right: 5%;
+}
+.title{
+    font-size: 2.6rem;
+}
+}
+@media(max-width:740px){
+    
+    .mainOfferBtn{
+        margin: 0 20%;
+        font-size: 1.3rem;
+    }
+    .icon{
+        display: none !important;
+    }
+    .headerContent{
+        display: grid;
+        grid-template-rows: repeat(3, 60px);
+        margin-top: 8rem;
+    }
+    .subtitle{
+        font-size: 1.4rem;
+        margin: 0;
+    }
+    
 }
